@@ -5,7 +5,7 @@ const pollingRoute = require('./routes/polling-route');
 const cors = require('cors');
 
 var corsOptions = {
-    origin: 'https://dineshbabusm.github.io/voting-system/',
+    origin: 'https://voting-system-back-end.onrender.com',
     methods: 'GET, POST, PUT, PATCH, DELETE, HEAD',
     credentials: true,
 }
